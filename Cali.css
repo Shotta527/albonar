@@ -50,6 +50,7 @@ h2{
     overflow: hidden;
     width: auto;
     height: 490px;
+    margin-bottom:15px;
 
     display: flex;
     flex-wrap: wrap;
