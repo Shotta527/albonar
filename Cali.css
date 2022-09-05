@@ -1,86 +1,361 @@
-h1{
-    font-size: 22px;
-    padding: 21px;
-    text-align: center;
-    font-family: sans-serif;
+@media (min-width: 660px) {
+
+    *{
+        margin: auto;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      
+      header{
+        width: 100%;
+        border: 1px;
+        background: #7C7C7C;
+      }
+      
+      #navegacion{
+        width: 100%;
+        height: 100%;
+        display: flex;
+      }
+      
+      
+      
+      .menu > li{ 
+        position: relative;
+        display: inline-block;
+       }
+      
+      .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: rgb(253, 253, 253);
+        font-family: sans-serif;
+        font-weight: 550;
+        text-decoration: none;
+      }
+      
+      .menu li:hover{
+        background-color: rgb(38, 40, 46);
+        transition: 0.5s;
+      }
+      
+      .subheader {
+        position: absolute;
+        background: rgb(69, 85, 85);
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s;
+        
+      }
+      
+      .subheader li a{
+        
+        display: block;
+        padding: 15px;
+        color: cornsilk;
+        font-family: sans-serif;
+        font-weight: 550;
+        text-decoration: none;
+      }
+      
+      .menu li:hover .subheader{
+        visibility: visible;
+        opacity: 1;
+      }
+      
+      .subheader1 {
+        position: absolute;
+        background: rgb(69, 85, 85);
+        width: 110%;
+        height: 550px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s;
+        overflow-y: scroll;
+      }
+      
+      .subheader1 li a{
+        
+        display: block;
+        padding: 15px;
+        color: cornsilk;
+        font-family: sans-serif;
+        font-weight: 550;
+        text-decoration: none;
+      }
+      
+      
+      .menu li:hover .subheader1{
+        visibility: visible;
+        opacity: 1;
+      }
+
+
+
+
+    h1{
+        font-size: 28px;
+        padding: 12px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    
+    
+    h2{
+        font-size: 28px;
+        padding: 12px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .sid{
+        text-align: center;
+        font-size:20px;   
+    }
+    
+    .sid a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .pistasid{
+        text-align: center;
+        font-size:20px;
+        background-color: rgb(76, 218, 76);
+    }
+    
+    .pistastar{
+        text-align: center;
+        font-size:20px;
+        background-color: rgb(223, 45, 45);
+    }
+    
+    .pistasiac{
+        text-align: center;
+        font-size:20px;
+        background-color: rgb(253, 239, 44);
+    }
+    
+    
+    
+    
+    #central{
+        border: 0px solid;
+        overflow: hidden;
+        width: auto;
+        height: 490px;
+        margin-bottom:15px;
+    
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 250px;
+    }
+    
+    .Externos{
+        margin-left: 15px;
+        margin-right: 15px;
+        border: 4px solid;
+        border-style: double;
+        overflow: hidden;
+        width: 400px;
+        height: 490px; 
+        float: left;
+    
+        margin-bottom: 0px;
+        flex:1;
+    
+    }
+    
+    #Interno{
+    
+        border: 4px solid;
+        border-style: double;
+        overflow: hidden;
+        width: 400px;
+        height: 490px; 
+        float: left;
+    
+        margin-bottom: 0px;
+        flex:1;
+    }
 }
 
 
 
-h2{
-    font-size: 28px;
-    padding: 12px;
-    text-align: center;
-    font-family: sans-serif;
-}
+@media (max-width: 659px){
+    *{
+        margin: auto;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      
+      header{
+        width: 100%;
+        border: 1px;
+        background: #7C7C7C;
+      }
+      
+      #navegacion{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+      }
+      
+      
+      
+      .menu > li{ 
+        position: relative;
+        display: inline-block;
+       }
+      
+      .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: rgb(253, 253, 253);
+        font-family: sans-serif;
+        font-weight: 550;
+        text-decoration: none;
+      }
+      
+      .menu li:hover{
+        background-color: rgb(38, 40, 46);
+        transition: 0.5s;
+      }
+      
+      .subheader {
+        position: absolute;
+        background: rgb(69, 85, 85);
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s;
+        
+      }
+      
+      .subheader li a{
+        
+        display: block;
+        padding: 15px;
+        color: cornsilk;
+        font-family: sans-serif;
+        font-weight: 550;
+        text-decoration: none;
+      }
+      
+      .menu li:hover .subheader{
+        visibility: visible;
+        opacity: 1;
+      }
+      
+      .subheader1 {
+        position: absolute;
+        background: rgb(69, 85, 85);
+        width: 110%;
+        height: 550px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s;
+        overflow-y: scroll;
+      }
+      
+      .subheader1 li a{
+        
+        display: block;
+        padding: 15px;
+        color: cornsilk;
+        font-family: sans-serif;
+        font-weight: 550;
+        text-decoration: none;
+      }
+      
+      
+      .menu li:hover .subheader1{
+        visibility: visible;
+        opacity: 1;
+      }
 
-.sid{
-    text-align: center;
-    font-size:20px;   
-}
-
-.sid a{
-    text-decoration: none;
-    color: black;
-}
-
-.pistasid{
-    text-align: center;
-    font-size:20px;
-    background-color: rgb(76, 218, 76);
-}
-
-.pistastar{
-    text-align: center;
-    font-size:20px;
-    background-color: rgb(223, 45, 45);
-}
-
-.pistasiac{
-    text-align: center;
-    font-size:20px;
-    background-color: rgb(253, 239, 44);
-}
 
 
 
-
-#central{
-    border: 0px solid;
-    overflow: hidden;
-    width: auto;
-    height: 490px;
-    margin-bottom:15px;
-
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 250px;
-}
-
-.Externos{
-    margin-left: 15px;
-    margin-right: 15px;
-    border: 4px solid;
-    border-style: double;
-    overflow: hidden;
-    width: 400px;
-    height: 490px; 
-    float: left;
-
-    margin-bottom: 0px;
-    flex:1;
-
-}
-
-#Interno{
-
-    border: 4px solid;
-    border-style: double;
-    overflow: hidden;
-    width: 400px;
-    height: 490px; 
-    float: left;
-
-    margin-bottom: 0px;
-    flex:1;
+    h1{
+        font-size: 28px;
+        padding: 12px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    
+    
+    h2{
+        font-size: 28px;
+        padding: 12px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .sid{
+        text-align: center;
+        font-size:20px;   
+    }
+    
+    .sid a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .pistasid{
+        text-align: center;
+        font-size:20px;
+        background-color: rgb(76, 218, 76);
+    }
+    
+    .pistastar{
+        text-align: center;
+        font-size:20px;
+        background-color: rgb(223, 45, 45);
+    }
+    
+    .pistasiac{
+        text-align: center;
+        font-size:20px;
+        background-color: rgb(253, 239, 44);
+    }
+    
+    
+    
+    
+    
+    
+    .Externos{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-bottom: 10px;
+        border: 4px solid;
+        border-style: double;
+        overflow: hidden;
+        height: 490px; 
+        float: left;
+        flex:1;
+    
+    }
+    
+    #Interno{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-bottom: 10px;
+        border: 4px solid;
+        border-style: double;
+        overflow: hidden;
+        height: 490px; 
+        float: left;
+        flex:1;
+    }
+    
 }
