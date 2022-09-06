@@ -11,7 +11,7 @@
       header{
         width: 100%;
         border: 1px;
-        background: #7C7C7C;
+        background: #252932;
       }
       
       #navegacion{
@@ -30,7 +30,7 @@
       .menu > li > a{
         display: block;
         padding: 15px 20px;
-        color: rgb(253, 253, 253);
+        color: #fff;
         font-family: sans-serif;
         font-weight: 550;
         text-decoration: none;
@@ -40,22 +40,27 @@
         background-color: rgb(38, 40, 46);
         transition: 0.5s;
       }
+
+      .menu li:hover .principales{
+        color:#f56f3a; 
+      }
       
       .subheader {
         position: absolute;
-        background: rgb(69, 85, 85);
-        width: 100%;
+        background: #252932;
+        width: 110%;
+        height: 550px;
         visibility: hidden;
         opacity: 0;
         transition: opacity 1s;
-        
+        overflow-y: scroll;
       }
       
       .subheader li a{
         
         display: block;
         padding: 15px;
-        color: cornsilk;
+        color: #fff;
         font-family: sans-serif;
         font-weight: 550;
         text-decoration: none;
@@ -66,34 +71,12 @@
         opacity: 1;
       }
       
-      .subheader1 {
-        position: absolute;
-        background: rgb(69, 85, 85);
-        width: 110%;
-        height: 550px;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 1s;
-        overflow-y: scroll;
+      .menu .secundarios:hover {
+        color:#f56f3a;
       }
       
-      .subheader1 li a{
-        
-        display: block;
-        padding: 15px;
-        color: cornsilk;
-        font-family: sans-serif;
-        font-weight: 550;
-        text-decoration: none;
-      }
-      
-      
-      .menu li:hover .subheader1{
-        visibility: visible;
-        opacity: 1;
-      }
 
-
+                                      /*BODY*/
 
 
     h1{
@@ -187,102 +170,84 @@
 
 
 @media (max-width: 659px){
-    *{
-        margin: auto;
-        padding: 0;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-      }
-      
-      header{
-        width: 100%;
-        border: 1px;
-        background: #7C7C7C;
-      }
-      
-      #navegacion{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        text-align: center;
-      }
-      
-      
-      
-      .menu > li{ 
-        position: relative;
-        display: inline-block;
-       }
-      
-      .menu > li > a{
-        display: block;
-        padding: 15px 20px;
-        color: rgb(253, 253, 253);
-        font-family: sans-serif;
-        font-weight: 550;
-        text-decoration: none;
-      }
-      
-      .menu li:hover{
-        background-color: rgb(38, 40, 46);
-        transition: 0.5s;
-      }
-      
-      .subheader {
-        position: absolute;
-        background: rgb(69, 85, 85);
-        width: 100%;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 1s;
-        
-      }
-      
-      .subheader li a{
-        
-        display: block;
-        padding: 15px;
-        color: cornsilk;
-        font-family: sans-serif;
-        font-weight: 550;
-        text-decoration: none;
-      }
-      
-      .menu li:hover .subheader{
-        visibility: visible;
-        opacity: 1;
-      }
-      
-      .subheader1 {
-        position: absolute;
-        background: rgb(69, 85, 85);
-        width: 110%;
-        height: 550px;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 1s;
-        overflow-y: scroll;
-      }
-      
-      .subheader1 li a{
-        
-        display: block;
-        padding: 15px;
-        color: cornsilk;
-        font-family: sans-serif;
-        font-weight: 550;
-        text-decoration: none;
-      }
-      
-      
-      .menu li:hover .subheader1{
-        visibility: visible;
-        opacity: 1;
-      }
+  *{
+    margin: auto;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  header{
+    width: 100%;
+    border: 1px;
+    background: #252932;
+    text-align: center;
+  }
+  
+  #navegacion{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  
+  
+  .menu > li{ 
+    position: relative;
+    display: inline-block;
+   }
+  
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 550;
+    text-decoration: none;
+  }
+  
+  .menu li:hover{
+    background-color: rgb(38, 40, 46);
+    transition: 0.5s;
+  }
+
+  .menu li:hover .principales{
+    color:#f56f3a; 
+  }
+  
+  .subheader {
+    position: absolute;
+    background: #252932;
+    width: 110%;
+    height: 550px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    overflow-y: scroll;
+  }
+  
+  .subheader li a{
+    
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 550;
+    text-decoration: none;
+  }
+  
+  .menu li:hover .subheader{
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .menu .secundarios:hover {
+    color:#f56f3a;
+  }
 
 
-
+                                             /*BODY*/
 
     h1{
         font-size: 28px;
