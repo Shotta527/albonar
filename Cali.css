@@ -1,4 +1,4 @@
-@media (min-width: 822px) {
+@media (min-width: 736px) {
     *{
         margin: auto;
         padding: 0;
@@ -73,7 +73,7 @@
       }
                                      /* ALFONSO BONILLA ARAGON*/
     h1{
-        font-size: 31px;
+        font-size: 28px;
         padding: 12px;
         text-align: center;
         font-family:'Arial';
@@ -81,7 +81,7 @@
     }
                                     /* NOMBRES SID, STAR, IAC*/
     h2{
-        font-size: 28px;
+        font-size: 25px;
         padding: 12px;
         text-align: center;
         font-family: 'Arial';
@@ -106,21 +106,21 @@
                                       /* NUMERO DE PISTA EN EL SID*/
     .pistasid{
         text-align: center;
-        font-size:25px;
+        font-size:20px;
         background-color: rgb(76, 218, 76);
         font-family: 'Arial';
     }
                                         /* NUMERO DE PISTA EN EL STAR*/
     .pistastar{
         text-align: center;
-        font-size:25px;
+        font-size:20px;
         background-color: rgb(223, 45, 45);
         font-family: 'Arial';
     }
                                           /* NUMERO DE PISTA EN EL IAC*/
     .pistasiac{
         text-align: center;
-        font-size:25px;
+        font-size:20px;
         background-color: rgb(253, 239, 44);
         font-family: 'Arial';
     }
@@ -159,7 +159,7 @@
 }
 
 
-@media (max-width: 821px){
+@media (max-width: 737px){
   *{
     margin: auto;
     padding: 0;
@@ -235,7 +235,7 @@
   }
                                     /* ALFONSO BONILLA ARAGON*/
     h1{
-        font-size: 31px;
+        font-size: 28px;
         padding: 12px;
         text-align: center;
         font-family: 'Arial';
