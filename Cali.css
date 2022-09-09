@@ -40,7 +40,7 @@
       }
                                       /*CAMBIAR COLOR A LETRA DE NAVEGACION*/
 
-      .menu li:focus .principales{
+      .menu li:hover .principales{
         color:#CD7213;
       }
                                     /* CREAR SUBMENU ESCONDIDO TOTAL*/
@@ -64,12 +64,12 @@
         text-decoration: none;
       }
                                   /* HACER SUBMENU VISIBLE AL ESTAR SOBRE NAVEGACION*/
-      .menu li:focus .subheader{
+      .menu li:hover .subheader{
         visibility: visible;
         opacity: 1;
       }
                                     /*CAMBIAR COLOR DE LETRA DEL SUBMENU*/
-      .menu .secundarios:focus {
+      .menu .secundarios:hover {
         color:#CD7213;
       }
                                      /* ALFONSO BONILLA ARAGON*/
@@ -100,7 +100,7 @@
         color: black;
     }
                                   /*CAMBIAR COLOR A LOS PROCEDIMIENTOS*/
-    .sid a:focus{  
+    .sid a:hover{  
       color: #CD7213;
   }
 
@@ -206,7 +206,7 @@
     text-decoration: none;
   }
                                       /*CAMBIAR COLOR A LETRA DE NAVEGACION*/
- .menu li:focus .principales{
+ .menu li:hover .principales{
     color:#CD7213; 
   }
                                       /* CREAR SUBMENU ESCONDIDO TOTAL*/
@@ -230,12 +230,12 @@
     text-decoration: none;
   }
                                   /* HACER SUBMENU VISIBLE AL ESTAR SOBRE NAVEGACION*/
-  .menu li:focus .subheader{
+  .menu li:hover .subheader{
     visibility: visible;
     opacity: 1;
   }
                                   /*CAMBIAR COLOR DE LETRA DEL SUBMENU*/
-  .menu .secundarios:focus {
+  .menu .secundarios:hover {
     color:#CD7213;
   }
                                     /* ALFONSO BONILLA ARAGON*/
@@ -266,7 +266,7 @@
         color: black;
     }
                                /*CAMBIAR COLOR A LOS PROCEDIMIENTOS*/
-    .sid a:focus{  
+    .sid a:hover{  
     color: #CD7213;
     }
                                             /* NUMERO DE PISTA EN EL SID*/
